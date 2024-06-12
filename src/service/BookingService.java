@@ -35,14 +35,6 @@ public class BookingService {
         return null;
     }
 
-//    public Booking updateGuestName(Booking booking){
-//        System.out.println("Enter new guest name: ");
-//        String newGuestName = Input.getString();
-//        booking.setGuestName(newGuestName);
-//        System.out.println("===+> Update Successfully");
-//        System.out.println(booking);
-//        return booking;
-//    }
 
     public void updateGuestName(String newName, String name) {
         List<Booking> bookings = getAllBooking();
